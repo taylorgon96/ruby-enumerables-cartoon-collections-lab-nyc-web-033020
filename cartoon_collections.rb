@@ -29,7 +29,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   if array.include?(cheese_types)
-    cheese_types.first
+    cheese_types.find
   else
     nil
   end 
